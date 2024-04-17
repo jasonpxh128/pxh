@@ -2,15 +2,15 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="md:w-9/12 mx-auto text-gray-400 bg-zinc-900">
+    <div className=" mx-1 md:w-9/12 md:mx-auto text-gray-400 bg-zinc-900">
        <div className="my-8 sm:text-sm">
         <h1 className="flex flex-row min-h-1 justify-center items-center font-bold text-lg">Pua Xian Hao</h1>
-        <p className=" text-sm flex flex-row min-h-1 justify-center items-center md:text-lg">S-18-18, Residensi HighPark Suites, 47301 Petaling Jaya</p>
+        <p className=" text-xs flex flex-row min-h-1 justify-center items-center md:text-lg">S-18-18, Residensi HighPark Suites, 47301 Petaling Jaya</p>
         <p className="flex flex-row min-h-1 justify-center items-center">+60183728819 | puaxianhao@gmail.com</p>
       </div>  
-      <div className=" lg:mx-11 lg:px-8 md:mx-6 sm:mx-2 mt-6 flex flex-col min-h-1 items-left ">
-        <h1 className=" text-sm font-bold underline md:text-lg">PROFESSIONAL PRACTICE</h1>
-        <p className=" mt-2 font-bold">Intel Malaysia Sdn Bhd</p>
+      <div className=" text-sm md:text-lg lg:mx-11 lg:px-8 md:mx-6 sm:mx-2 mt-6 flex flex-col min-h-1 items-left ">
+        <h1 className=" font-bold underline ">PROFESSIONAL PRACTICE</h1>
+        <p className="  mt-2 font-bold">Intel Malaysia Sdn Bhd</p>
         <p className=" mt-0 font-bold text-sm">Sales Applications Engineer - Sales Marketing Group - SEA ANZ</p>
         <p>Nov 2021 - current</p>
         <div className="mx-3 p-1">
@@ -20,7 +20,7 @@ export default function Home() {
             <p className=" indent-5 font-black"> -- Honeywell </p>
             <p className=" indent-5 font-black"> -- GE Healthcare & Vernova </p>
             <li className=" justify-normal">Charter includes providing technical support and account coverage for product design on Intel Architecture (CPU, GPU & Ethernet) </li>
-            <li>Providing technical support until board bring up and power on stages for embedded / industrial single board computers (SBC), system on modules (SOM), COM express</li>
+            <li>Providing technical support until board bring up and power on stages for embedded / industrial IOT applications on form factors such as single board computers (SBC), system on modules (SOM), COM Express.</li>
             <li>Enabling customers to accelerate their workloads using Intel CPU features and accelerators for AI/ML & Deep Learning applications.</li>
             <li>Driving adoption for Intel open standards software toolchains such as OpenVINO and OneAPI to accelerate <span className=" underline font-bold ">AI Edge Inferencing</span> to leverage heterogenous compute.</li>
 
