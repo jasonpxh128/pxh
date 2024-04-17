@@ -2,14 +2,14 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="mx-11">
-       <div className="my-8">
+    <div className=" lg:mx-11 md:mx-6 sm:mx-2">
+       <div className="my-8 sm:text-sm">
         <h1 className="flex flex-row min-h-1 justify-center items-center font-bold text-lg">Pua Xian Hao</h1>
-        <p className="flex flex-row min-h-1 justify-center items-center">S-18-18, Residensi HighPark Suites, 47301 Petaling Jaya</p>
+        <p className=" text-sm flex flex-row min-h-1 justify-center items-center md:text-lg">S-18-18, Residensi HighPark Suites, 47301 Petaling Jaya</p>
         <p className="flex flex-row min-h-1 justify-center items-center">+60183728819 | puaxianhao@gmail.com</p>
       </div>  
-      <div className=" mx-11 px-8 mt-6 flex flex-col min-h-1 items-left ">
-        <h1 className=" text-lg font-bold underline">PROFESSIONAL PRACTICE</h1>
+      <div className=" lg:mx-11 lg:px-8 md:mx-6 sm:mx-2 mt-6 flex flex-col min-h-1 items-left ">
+        <h1 className=" text-sm font-bold underline md:text-lg">PROFESSIONAL PRACTICE</h1>
         <p className=" mt-2 font-bold">Intel Malaysia Sdn Bhd</p>
         <p className=" mt-0 font-bold text-sm">Sales Applications Engineer - Sales Marketing Group - SEA ANZ</p>
         <p>Nov 2021 - current</p>
