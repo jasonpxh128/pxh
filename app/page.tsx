@@ -10,8 +10,8 @@ export default function Home() {
       </div>  
       <div className=" text-sm md:text-lg lg:mx-11 lg:px-8 md:mx-6 sm:mx-2 mt-6 flex flex-col min-h-1 items-left ">
         <h1 className=" font-bold underline ">PROFESSIONAL PRACTICE</h1>
-        <p className="  mt-2 font-bold">Intel Malaysia Sdn Bhd</p>
-        <p className=" mt-0 font-bold text-sm">Sales Applications Engineer - Sales Marketing Group - SEA ANZ</p>
+        <p className="  md:text-xl text-gray-300 mt-2 font-bold">Intel Malaysia Sdn Bhd</p>
+        <p className=" mt-0 font-bold text-gray-300 text-sm">Sales Applications Engineer - Sales Marketing Group - SEA ANZ</p>
         <p>Nov 2021 - current</p>
         <div className="mx-3 p-1">
           <ul className= "list-disc justify-normal">
@@ -20,9 +20,9 @@ export default function Home() {
             <p className=" indent-5 font-black"> -- Honeywell </p>
             <p className=" indent-5 font-black"> -- GE Healthcare & Vernova </p>
             <li className=" justify-normal">Charter includes providing technical support and account coverage for product design on Intel Architecture (CPU, GPU & Ethernet) </li>
-            <li>Providing technical support until board bring up and power on stages for embedded / industrial IOT applications on form factors such as single board computers (SBC), system on modules (SOM), COM Express.</li>
-            <li>Enabling customers to accelerate their workloads using Intel CPU features and accelerators for AI/ML & Deep Learning applications such as AMX and AVX512.</li>
-            <li>Driving adoption for Intel open standards software toolchains such as OpenVINO and OneAPI to accelerate <span className=" underline font-bold ">AI Edge Inferencing</span> to leverage heterogenous compute.</li>
+            <li>Providing technical support until board bring up and power on stages for <span className=" underline font-bold text-gray-300 ">embedded / industrial IOT applications</span>  on form factors such as single board computers (SBC), system on modules (SOM), COM Express.</li>
+            <li>Enabling customers to accelerate AI/ML & Deep Learning workloads using Intel CPU features and accelerators such as <span className=" underline font-bold text-gray-300 ">AMX and AVX512. </span></li>
+            <li>Driving adoption for Intel open standards software toolchains such as OpenVINO and OneAPI to accelerate <span className=" underline font-bold text-gray-300 ">AI Edge Inferencing</span> to leverage heterogenous compute.</li>
 
           </ul>
         </div>
