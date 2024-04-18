@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className=" mx-1 mt-2 md:w-9/12 md:mx-auto text-gray-400 bg-zinc-900">
+    <div className=" mx-3 mt-2 md:w-9/12 md:mx-auto text-gray-400 bg-zinc-900">
        <div className="my-8 sm:text-sm">
         <h1 className="flex flex-row min-h-1 justify-center items-center font-bold text-lg">Pua Xian Hao</h1>
         <p className=" text-xs flex flex-row min-h-1 justify-center items-center md:text-lg">S-18-18, Residensi HighPark Suites, 47301 Petaling Jaya</p>
