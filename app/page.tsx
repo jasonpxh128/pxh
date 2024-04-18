@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className=" mx-1 md:w-9/12 md:mx-auto text-gray-400 bg-zinc-900">
+    <div className=" mx-1 mt-2 md:w-9/12 md:mx-auto text-gray-400 bg-zinc-900">
        <div className="my-8 sm:text-sm">
         <h1 className="flex flex-row min-h-1 justify-center items-center font-bold text-lg">Pua Xian Hao</h1>
         <p className=" text-xs flex flex-row min-h-1 justify-center items-center md:text-lg">S-18-18, Residensi HighPark Suites, 47301 Petaling Jaya</p>
@@ -21,7 +21,7 @@ export default function Home() {
             <p className=" indent-5 font-black"> -- GE Healthcare & Vernova </p>
             <li className=" justify-normal">Charter includes providing technical support and account coverage for product design on Intel Architecture (CPU, GPU & Ethernet) </li>
             <li>Providing technical support until board bring up and power on stages for embedded / industrial IOT applications on form factors such as single board computers (SBC), system on modules (SOM), COM Express.</li>
-            <li>Enabling customers to accelerate their workloads using Intel CPU features and accelerators for AI/ML & Deep Learning applications.</li>
+            <li>Enabling customers to accelerate their workloads using Intel CPU features and accelerators for AI/ML & Deep Learning applications such as AMX and AVX512.</li>
             <li>Driving adoption for Intel open standards software toolchains such as OpenVINO and OneAPI to accelerate <span className=" underline font-bold ">AI Edge Inferencing</span> to leverage heterogenous compute.</li>
 
           </ul>
