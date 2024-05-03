@@ -121,7 +121,7 @@ export default function Home() {
                 <div className="hidden font-mono text-xs underline print:visible">
                 https://www.linkedin.com/pulse/openvino-asynchronous-inferencing-anomalib-jason-pua-njbsf/?trackingId=RYbCkhslAa4lDgfwzfmOHg%3D%3D
                 </div>
-                <p className="text-muted-foreground font-mono text-xs"> Shifting gears from LLMs, this time we are exploring image segmentation and anomaly detection using the ANOMALIB library and the PADIM Model. Don't leave any performance on the table with the OpenVINO Asynchronous API.</p>
+                <p className="text-muted-foreground font-mono text-xs"> Shifting gears from LLMs, this time we are exploring image segmentation and anomaly detection using the ANOMALIB library and the PADIM Model. Dont leave any performance on the table with the OpenVINO Asynchronous API.</p>
               </div>
 
             </div>
@@ -142,8 +142,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-
-
 
           </div>
 
@@ -181,8 +179,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-
-
 
           </div>
 
