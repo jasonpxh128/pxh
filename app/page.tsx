@@ -80,6 +80,7 @@ export default function Home() {
         
         <h1 className=" text-sm font-bold underline hover:decoration-4  md:text-lg my-3">ARTICLES</h1>
         <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
+          
           <div className="rounded-lg bg-card text-card-foreground flex flex-col overflow-hidden border border-muted p-3">
             <div className="flex flex-col space-y-1.5">
               <div className="space-y-1">
