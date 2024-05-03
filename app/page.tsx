@@ -146,6 +146,45 @@ export default function Home() {
 
           </div>
 
+          <div className="rounded-lg bg-card text-card-foreground flex flex-col overflow-hidden border border-muted p-3">
+            <div className="flex flex-col space-y-1.5">
+              <div className="space-y-1">
+                <h3 className="font-semibold tracking-tight text-base">
+                  <a href="https://www.linkedin.com/pulse/my-still-ongoing-journey-understanding-gpt-training-intel-jason-pua/?trackingId=ewOH2UB1EyCHFf5LjsoBZQ%3D%3D" target="blank" className="inline-flex items-center gap-1 hover:underline">My still ongoing journey understanding GPT... (Training on Intel CPU vs GPU)<span className="size-1 rounded-full bg-green-500"></span></a>
+                  
+                </h3>
+                <div className="hidden font-mono text-xs underline print:visible">
+                https://www.linkedin.com/pulse/my-still-ongoing-journey-understanding-gpt-training-intel-jason-pua/?trackingId=ewOH2UB1EyCHFf5LjsoBZQ%3D%3D
+                </div>
+                <p className="text-muted-foreground font-mono text-xs">A little late to the party, paying self-attention and took some time off 😄.Worked on training a small and simple bigram language model on the transfomers architecture using Intel Extension for PyTorch.</p>
+              </div>
+
+            </div>
+
+            <div className="text-pretty font-mono text-sm text-muted-foreground mt-auto flex">
+              <div className="mt-2 flex flex-wrap gap-1">
+                <div className="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-white/80 text-black hover:bg-white/60 px-1 py-0 text-[15px]">
+                  Intel Demo
+                </div>
+                <div className="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-white/80 text-black hover:bg-white/60 px-1 py-0 text-[15px]">
+                  Python
+                </div>
+                <div className="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-white/80 text-black hover:bg-white/60 px-1 py-0 text-[15px]">
+                  Pytorch
+                </div>
+                <div className="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-white/80 text-black hover:bg-white/60 px-1 py-0 text-[15px]">
+                  LLM
+                </div>
+                <div className="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-white/80 text-black hover:bg-white/60 px-1 py-0 text-[15px]">
+                  CPU & GPU
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+
         </div>
 
       </div>
