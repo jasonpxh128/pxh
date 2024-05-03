@@ -6,7 +6,7 @@ export default function Home() {
     <div className=" mx-3 mt-2 md:w-9/12 md:mx-auto text-gray-400 bg-zinc-900">
        <div className="my-8 text-sm md:text-lg">
         <h1 className="flex flex-row min-h-1 justify-center items-center font-bold text-lg">Pua Xian Hao</h1>
-        <p className=" text-xs flex flex-row min-h-1 justify-center items-center md:text-lg">S-18-18, Residensi HighPark Suites, 47301 Petaling Jaya</p>
+        <p className=" text-xs flex flex-row min-h-1 justify-center items-center md:text-lg"> <span className="mx-1"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke=" currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-globe size-3"> <circle cx="12" cy="12" r="10"></circle> <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path> <path d="M2 12h20"></path> </svg></span>KL, Malaysia</p>
         {/* <p className="flex flex-row min-h-1 justify-center items-center">+60183728819 | <SocialIcon  className=" cursor-pointer" network="email" href="mailto:puaxianhao@gmail.com" fgColor="white" bgColor="transparent"/> <a href="mailto:puaxianhao@gmail.com"> puaxianhao@gmail.com</a></p> */}
         <p className="flex flex-row min-h-1 justify-center items-center">+60183728819 | <a href="mailto:puaxianhao@gmail.com" className="mx-1 text-gray-200">  puaxianhao@gmail.com</a></p>
 
@@ -14,9 +14,22 @@ export default function Home() {
 
       <div className=" text-sm md:text-lg lg:mx-11 lg:px-8 md:mx-6 sm:mx-2 mt-6 flex flex-col min-h-1 items-left ">
         <h1 className=" font-bold underline hover:decoration-4 ">PROFESSIONAL PRACTICE</h1>
-        <p className="  md:text-xl text-gray-300 mt-2 font-bold">Intel Malaysia Sdn Bhd</p>
+        <div className="flex flex-col space-y-1.5">
+          <div className="flex items-center justify-between gap-x-2 text-base">
+            <h3 className="  inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
+              <a className="hover:underline" href="https://www.linkedin.com/company/intel-corporation/mycompany/verification/">Intel Corporation</a>
+              <span className="inline-flex gap-x-1 md:gap-x-2">
+                <div className=" inline-flex items-center rounded-md border px-2 py-0.5 font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent  bg-white/80 text-black hover:bg-white/60 align-middle text-xs md:hidden md:text-sm ">APJ</div>
+                <div className=" hidden md:inline-flex items-center rounded-md border px-2 py-0.5 font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent  bg-white/80 text-black hover:bg-white/60 align-middle text-xs md:text-sm">Asia Pacific Japan</div>
+              </span>
+            </h3>
+            <div className="tabular-nums text-gray-500">Nov. 2021 - Present</div>
+          </div>
+
+        </div>
+        {/* <p className="  md:text-xl text-gray-300 mt-2 font-bold">Intel Malaysia Sdn Bhd</p> */}
         <p className=" mt-0 font-bold text-gray-300 text-sm">Sales Applications Engineer - Sales Marketing Group - SEA ANZ</p>
-        <p>Nov 2021 - current</p>
+        {/* <p>Nov 2021 - current</p> */}
         <div className="mx-3 p-1">
           <ul className= "list-disc justify-normal">
             <li>Providing coverage for MNC accounts in APJ region as technical sales support:</li>
