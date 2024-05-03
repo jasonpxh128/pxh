@@ -68,7 +68,37 @@ export default function Home() {
             <li>First Class Honours Graduate – Class of Oct’ 2016</li>
           </ul>
         </div>
+
+        <h1 className=" text-sm font-bold underline hover:decoration-4  md:text-lg my-3">SKILLS</h1>
+        <div className="flex flex-wrap gap-1">
+          <div className="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-white/80 text-black hover:bg-white/60"> Python </div>
+          <div className="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-white/80 text-black hover:bg-white/60"> React/Next.js </div>
+          <div className="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-white/80 text-black hover:bg-white/60"> C++ </div>
+          <div className="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-white/80 text-black hover:bg-white/60"> Docker </div>
+       
+        </div>
         
+        <h1 className=" text-sm font-bold underline hover:decoration-4  md:text-lg my-3">ARTICLES</h1>
+        <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
+          <div className="rounded-lg bg-card text-card-foreground flex flex-col overflow-hidden border border-muted p-3">
+            <div className="flex flex-col space-y-1.5">
+              <div className="space-y-1">
+                <h3 className="font-semibold tracking-tight text-base">
+                  <a href="https://www.linkedin.com/pulse/how-run-llama3-models-llamacpp-intel-gpus-sycl-oneapi-jason-pua-5g6vc/?trackingId=PgxN1cPCfuUKfgPvkIzveQ%3D%3D" target="blank" className="inline-flex items-center gap-1 hover:underline">Llama3 on Llama.cpp <span className="size-1 rounded-full bg-green-500"></span></a>
+                  
+                </h3>
+                <div className="hidden font-mono text-xs underline print:visible">
+                https://www.linkedin.com/pulse/how-run-llama3-models-llamacpp-intel-gpus-sycl-oneapi-jason-pua-5g6vc/?trackingId=PgxN1cPCfuUKfgPvkIzveQ%3D%3D
+                </div>
+                <p className="text-muted-foreground font-mono text-xs"> Running Llama3 model on llama.cpp</p>
+              </div>
+
+
+            </div>
+
+          </div>
+
+        </div>
 
       </div>
       
