@@ -121,7 +121,7 @@ export default function Home() {
                 <div className="hidden font-mono text-xs underline print:visible">
                 https://www.linkedin.com/pulse/openvino-asynchronous-inferencing-anomalib-jason-pua-njbsf/?trackingId=RYbCkhslAa4lDgfwzfmOHg%3D%3D
                 </div>
-                <p className="text-muted-foreground font-mono text-xs"> Shifting gears from LLMs, this time we are exploring image segmentation and anomaly detection using the ANOMALIB library and the PADIM Model. Dont leave any performance on the table with the OpenVINO Asynchronous API.</p>
+                <p className="text-muted-foreground font-mono text-xs"> Shifting gears from LLMs, this time we are exploring image segmentation and anomaly detection using the ANOMALIB library and the PADIM Model. Do not leave any performance on the table with the OpenVINO Asynchronous API.</p>
               </div>
 
             </div>
@@ -149,7 +149,7 @@ export default function Home() {
             <div className="flex flex-col space-y-1.5">
               <div className="space-y-1">
                 <h3 className="font-semibold tracking-tight text-base">
-                  <a href="https://www.linkedin.com/pulse/my-still-ongoing-journey-understanding-gpt-training-intel-jason-pua/?trackingId=ewOH2UB1EyCHFf5LjsoBZQ%3D%3D" target="blank" className="inline-flex items-center gap-1 hover:underline">My still ongoing journey understanding GPT... (Training on Intel CPU vs GPU)<span className="size-1 rounded-full bg-green-500"></span></a>
+                  <a href="https://www.linkedin.com/pulse/my-still-ongoing-journey-understanding-gpt-training-intel-jason-pua/?trackingId=ewOH2UB1EyCHFf5LjsoBZQ%3D%3D" target="blank" className="inline-flex items-center gap-1 hover:underline">My still ongoing journey understanding GPT. Training a small bigram model on Intel CPU vs GPU<span className="size-1 rounded-full bg-green-500"></span></a>
                   
                 </h3>
                 <div className="hidden font-mono text-xs underline print:visible">
