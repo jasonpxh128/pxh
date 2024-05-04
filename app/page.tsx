@@ -70,7 +70,7 @@ export default function Home() {
                   <div className=" hidden md:inline-flex items-center rounded-md border px-2 py-0.5 font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent  bg-white/80 text-black hover:bg-white/60 align-middle text-xs ">Southeast Asia</div>
                 </span>
               </h3>
-              <div className="tabular-nums text-gray-500">Apr. 2016 - Oct 2021</div>
+              <div className="tabular-nums text-gray-500 mt-3">Apr. 2016 - Oct 2021</div>
             </div>
 
           </div>
