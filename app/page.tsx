@@ -1,15 +1,21 @@
 import Image from "next/image";
 import { SocialIcon } from "react-social-icons";
 import { Metadata } from 'next'
+import Head from "next/head";
 
 
 export default function Home() {
   return (
     <div className=" mx-3 mt-2 md:w-9/12 md:mx-auto text-gray-400 bg-zinc-900">
-      <meta property="og:image" content="<generated>" />
-      <meta property="og:image:type" content="<generated>" />
-      <meta property="og:image:width" content="<generated>" />
-      <meta property="og:image:height" content="<generated>" />
+      <Head>
+        <meta property="og:image" content="<generated>" />
+        <meta property="og:image:type" content="<generated>" />
+        <meta property="og:image:width" content="<generated>" />
+        <meta property="og:image:height" content="<generated>" />
+
+      </Head>
+
+      
        <div className="my-8 text-sm md:text-lg">
         <h1 className="flex flex-row min-h-1 justify-center items-center font-bold text-lg">Pua Xian Hao</h1>
         <p className=" text-xs flex flex-row min-h-1 justify-center items-center md:text-lg"> <span className="mx-1"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke=" currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-globe size-3"> <circle cx="12" cy="12" r="10"></circle> <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path> <path d="M2 12h20"></path> </svg></span>KL, Malaysia</p>
