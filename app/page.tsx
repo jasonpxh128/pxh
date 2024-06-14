@@ -48,14 +48,15 @@ export default function Home() {
               {/* <p>Nov 2021 - current</p> */}
               <div className="mx-3 p-1 text-pretty text-muted-foreground mt-2">
                 <ul className= "list-disc justify-normal">
-                  <li>Providing coverage for MNC accounts in APJ region as technical sales support:</li>
+                  <li>Providing coverage for Global MNC accounts in Asia region:</li>
                   <p className=" indent-5 font-extrabold"> -- Siemens </p>
                   <p className=" indent-5 font-extrabold"> -- Honeywell </p>
                   <p className=" indent-5 font-extrabold"> -- GE Healthcare & Vernova </p>
-                  <li className=" justify-normal">Charter includes providing technical support and account coverage for product design on Intel Architecture <span className=" underline hover:decoration-4  font-bold text-gray-300 ">(CPU, GPU & Ethernet)</span> </li>
+                  <li className=" justify-normal">Charter includes providing account management and technical support for product design on Intel Architecture such as <span className=" underline hover:decoration-4  font-bold text-gray-300 ">(CPU, GPU & Ethernet)</span> </li>
+                  <li>Enabling customers to accelerate <span className=" underline hover:decoration-4  font-bold text-gray-300 ">AI/DL</span> & Machine Learning workloads using Intel CPU features and accelerators such as <span className=" underline hover:decoration-4  font-bold text-gray-300 ">AMX and AVX512. </span></li>
+                  <li>Driving adoption for Intel open standards software such as OpenVINO and OneAPI to accelerate <span className=" underline hover:decoration-4  font-bold text-gray-300 ">Edge AI Inferencing</span>.</li>
                   <li>Providing technical support until board bring up and power on stages for <span className=" underline hover:decoration-4 font-bold text-gray-300 ">embedded / industrial IOT applications</span>  on form factors such as single board computers (SBC), system on modules (SOM), COM Express.</li>
-                  <li>Enabling customers to accelerate AI/ML & Deep Learning workloads using Intel CPU features and accelerators such as <span className=" underline hover:decoration-4  font-bold text-gray-300 ">AMX and AVX512. </span></li>
-                  <li>Driving adoption for Intel open standards software toolchains such as OpenVINO and OneAPI to accelerate <span className=" underline hover:decoration-4  font-bold text-gray-300 ">AI Edge Inferencing</span> to leverage heterogenous compute.</li>
+                  <li>Close collaboration with OEMs to such as <span className=" underline hover:decoration-4  font-bold text-gray-300 ">Lenovo, Dell and HPE</span> for bespoke solutions on customers specified power & thermal envelope.</li>
 
                 </ul>
               </div>
@@ -130,7 +131,7 @@ export default function Home() {
 
             </div>
             
-            <h1 className=" text-sm font-bold underline hover:decoration-4  md:text-lg my-3">ARTICLES</h1>
+            <h1 className=" text-sm font-bold underline hover:decoration-4  md:text-lg my-3">Projects & LinkedIn Articles</h1>
             <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
               
               <div className="rounded-lg bg-card text-card-foreground flex flex-col overflow-hidden border border-muted p-3">
@@ -143,7 +144,7 @@ export default function Home() {
                     <div className="hidden font-mono text-xs underline print:visible">
                     https://www.linkedin.com/pulse/how-run-llama3-models-llamacpp-intel-gpus-sycl-oneapi-jason-pua-5g6vc/?trackingId=PgxN1cPCfuUKfgPvkIzveQ%3D%3D
                     </div>
-                    <p className="text-muted-foreground font-mono text-xs"> Running Llama3 model on llama.cpp</p>
+                    <p className="text-muted-foreground font-mono text-xs"> Running Llama3 model on Intel FLEX 170 GPU with llama.cpp</p>
                   </div>
 
                 </div>
@@ -155,6 +156,12 @@ export default function Home() {
                     </div>
                     <div className="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-white/80 text-black hover:bg-white/60 px-1 py-0 text-[15px]">
                       C++
+                    </div>
+                    <div className="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-white/80 text-black hover:bg-white/60 px-1 py-0 text-[15px]">
+                      SYCL
+                    </div>
+                    <div className="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-white/80 text-black hover:bg-white/60 px-1 py-0 text-[15px]">
+                      CPU & GPU
                     </div>
                   </div>
                 </div>
