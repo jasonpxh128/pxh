@@ -27,36 +27,37 @@ export default function Home() {
           <div className=" text-sm md:text-lg flex flex-col min-h-1 items-left ">
           {/* <div className=" text-sm md:text-lg lg:mx-11 lg:px-8 md:mx-6 sm:mx-2 mt-6 flex flex-col min-h-1 items-left "> */}
 
-            <h1 className=" font-bold underline hover:decoration-4 ">PROFESSIONAL PRACTICE</h1>
+            <h1 className=" font-bold underline hover:decoration-4 md:text-2xl">PROFESSIONAL PRACTICE</h1>
 
             <div className="rounded-lg bg-card text-card-foreground">
               <div className="flex flex-col space-y-2">
                 <div className="flex items-center justify-between gap-x-2 text-base">
                   <h3 className="  inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
-                    <a className=" text-lg hover:underline" href="https://www.linkedin.com/company/intel-corporation/mycompany/verification/">Intel Corporation</a>
+                    <a className="text-sm md:text-lg hover:underline" href="https://www.linkedin.com/company/intel-corporation/mycompany/verification/">Intel Corporation</a>
                     <span className="inline-flex gap-x-1 md:gap-x-2">
                       <div className=" inline-flex items-center rounded-md border px-2 py-0.5 font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent  bg-white/80 text-black hover:bg-white/60 align-middle text-xs md:hidden  ">APJ</div>
-                      <div className=" hidden md:inline-flex items-center rounded-md border px-2 py-0.5 font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent  bg-white/80 text-black hover:bg-white/60 align-middle text-xs ">Asia Pacific Japan</div>
+                      <div className=" hidden md:inline-flex items-center rounded-md border px-2 py-0.5 font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent  bg-white/80 text-black hover:bg-white/60 align-middle text-xs ">APJ</div>
                     </span>
                   </h3>
-                  <div className="tabular-nums text-gray-500">Nov. 2021 - Present</div>
+                  <div className="tabular-nums text-gray-300 underline">Nov. 2021 - Present</div>
                 </div>
 
               </div>
               {/* <p className="  md:text-xl text-gray-300 mt-2 font-bold">Intel Malaysia Sdn Bhd</p> */}
-              <p className=" mt-0 font-bold text-gray-300 text-sm">Sales Applications Engineer - Sales Marketing Group - SEA ANZ</p>
+              <p className=" text-sm md:text-lg mt-0 font-bold text-gray-300">Sales Applications Engineer - Sales Marketing Group - SEA ANZ</p>
               {/* <p>Nov 2021 - current</p> */}
-              <div className="mx-3 p-1 text-pretty text-muted-foreground mt-2">
+              <div className="mx-3 p-1 text-pretty text-muted-foreground text-sm">
                 <ul className= "list-disc justify-normal">
-                  <li>Providing coverage for Global MNC accounts in Asia region:</li>
-                  <p className=" indent-5 font-extrabold"> -- Siemens </p>
-                  <p className=" indent-5 font-extrabold"> -- Honeywell </p>
-                  <p className=" indent-5 font-extrabold"> -- GE Healthcare & Vernova </p>
+                  <li>Providing sales & technical coverage for Global MNC accounts in Asia region:</li>
+                  <p className=" indent-5 font-bold"> -- Siemens </p>
+                  <p className=" indent-5 font-bold"> -- Honeywell </p>
+                  <p className=" indent-5 font-bold"> -- GE Healthcare & Vernova </p>
                   <li className=" justify-normal">Charter includes providing account management and technical support for product design on Intel Architecture such as <span className=" underline hover:decoration-4  font-bold text-gray-300 ">(CPU, GPU & Ethernet)</span> </li>
                   <li>Enabling customers to accelerate <span className=" underline hover:decoration-4  font-bold text-gray-300 ">AI/DL</span> & Machine Learning workloads using Intel CPU features and accelerators such as <span className=" underline hover:decoration-4  font-bold text-gray-300 ">AMX and AVX512. </span></li>
                   <li>Driving adoption for Intel open standards software such as OpenVINO and OneAPI to accelerate <span className=" underline hover:decoration-4  font-bold text-gray-300 ">Edge AI Inferencing</span>.</li>
                   <li>Providing technical support until board bring up and power on stages for <span className=" underline hover:decoration-4 font-bold text-gray-300 ">embedded / industrial IOT applications</span>  on form factors such as single board computers (SBC), system on modules (SOM), COM Express.</li>
                   <li>Close collaboration with OEMs to such as <span className=" underline hover:decoration-4  font-bold text-gray-300 ">Lenovo, Dell and HPE</span> for bespoke solutions on customers specified power & thermal envelope.</li>
+                  <li>Training and technical enablement of Lenovo Technical Sales Team & regional account teams for Client Compute <span className="underline hover:decoration-4  font-bold text-gray-300 ">(AIPC)</span> and Data Center Servers (AI on Xeon) for Enterprise, Public Sector and MNC segments.</li>
 
                 </ul>
               </div>
@@ -67,20 +68,20 @@ export default function Home() {
               <div className="flex flex-col space-y-2">
                 <div className="flex items-center justify-between gap-x-2 text-base">
                   <h3 className="  inline-flex items-center justify-center gap-x-1 font-semibold leading-none mt-3">
-                    <a className=" text-lg hover:underline" href="https://www.linkedin.com/company/intel-corporation/mycompany/verification/">ABB Corporation</a>
+                    <a className=" text-sm md:text-lg hover:underline" href="https://www.linkedin.com/company/intel-corporation/mycompany/verification/">ABB Corporation</a>
                     <span className="inline-flex gap-x-1 md:gap-x-2">
                       <div className=" inline-flex items-center rounded-md border px-2 py-0.5 font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent  bg-white/80 text-black hover:bg-white/60 align-middle text-xs md:hidden  ">SEA</div>
-                      <div className=" hidden md:inline-flex items-center rounded-md border px-2 py-0.5 font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent  bg-white/80 text-black hover:bg-white/60 align-middle text-xs ">Southeast Asia</div>
+                      <div className=" hidden md:inline-flex items-center rounded-md border px-2 py-0.5 font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent  bg-white/80 text-black hover:bg-white/60 align-middle text-xs ">SEA</div>
                     </span>
                   </h3>
-                  <div className="tabular-nums text-gray-500 mt-3">Apr. 2016 - Oct 2021</div>
+                  <div className="tabular-nums text-gray-300 mt-3 underline">Apr. 2016 - Oct 2021</div>
                 </div>
 
               </div>
               {/* <p className="  md:text-xl text-gray-300 mt-2 font-bold">Intel Malaysia Sdn Bhd</p> */}
-              <p className=" mt-0 font-bold text-gray-300 text-sm">Engineer – Sales Specialist – Motion</p>
+              <p className=" mt-0 font-bold text-gray-300">Engineer – Sales Specialist – Motion</p>
               {/* <p>Nov 2021 - current</p> */}
-              <div className="mx-3 p-1 text-pretty text-muted-foreground mt-2">
+              <div className="mx-3 p-1 text-pretty text-muted-foreground  text-sm">
                 <ul className= "list-disc justify-normal">
                   <li className=" justify-normal">Managed Key Accounts in project management role for sectors such as Oil & Gas, Critical Power Generation and Public Utilities across the region [Malaysia, Thailand & Brunei].</li>
                   <li>Prepared project specification & technical design of IEC LV Induction motors in accordance to PETRONAS Technical Standard (PTS) & SHELL DEP (Design and Engineering Practice) in projects:</li>
@@ -95,8 +96,8 @@ export default function Home() {
             </div>
             
 
-            <h1 className=" text-sm font-bold underline hover:decoration-4  md:text-lg">EDUCATION</h1>
-            <p className=" mt-2 font-bold">MONASH UNIVERSITY</p>
+            <h1 className=" text-sm mt-10 font-bold underline hover:decoration-4 md:text-2xl">EDUCATION</h1>
+            <p className=" text-sm md:text-lg  text-gray-300 font-bold">MONASH UNIVERSITY</p>
             <p className=" mt-0 font-bold text-sm">Bachelor of Electrical and Computer Systems Engineering</p>
             <div className="mx-3 p-1">
               <ul className= "list-disc justify-normal">
@@ -104,7 +105,7 @@ export default function Home() {
               </ul>
             </div>
 
-            <p className=" mt-2 font-bold">SUNWAY UNIVERSITY COLLEGE</p>
+            <p className=" mt-2 font-bold text-gray-300">SUNWAY UNIVERSITY COLLEGE</p>
             <p className=" mt-0 font-bold text-sm">Monash University Foundation Year [MUFY]</p>
             <div className="mx-3 p-1">
               <ul className= "list-disc justify-normal">
@@ -112,7 +113,7 @@ export default function Home() {
               </ul>
             </div>
 
-            <p className=" mt-2 font-bold">BALDOR USA</p>
+            <p className=" mt-2 font-bold text-gray-300">BALDOR USA</p>
             <p className=" mt-0 font-bold text-sm">School of Transmissioneering</p>
             <div className="mx-3 p-1">
               <ul className= "list-disc justify-normal">
