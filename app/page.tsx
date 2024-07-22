@@ -31,9 +31,9 @@ export default function Home() {
 
             <div className="rounded-lg bg-card text-card-foreground">
               <div className="flex flex-col space-y-2">
-                <div className="flex items-center justify-between gap-x-2 text-base">
+                <div className="flex items-center justify-between gap-x-2 ">
                   <h3 className="  inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
-                    <a className="text-sm md:text-lg hover:underline" href="https://www.linkedin.com/company/intel-corporation/mycompany/verification/">Intel Corporation</a>
+                    <a className="text-base md:text-xl hover:underline" href="https://www.linkedin.com/company/intel-corporation/mycompany/verification/">Intel Corporation</a>
                     <span className="inline-flex gap-x-1 md:gap-x-2">
                       <div className=" inline-flex items-center rounded-md border px-2 py-0.5 font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent  bg-white/80 text-black hover:bg-white/60 align-middle text-xs md:hidden  ">APJ</div>
                       <div className=" hidden md:inline-flex items-center rounded-md border px-2 py-0.5 font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent  bg-white/80 text-black hover:bg-white/60 align-middle text-xs ">APJ</div>
@@ -46,7 +46,7 @@ export default function Home() {
               {/* <p className="  md:text-xl text-gray-300 mt-2 font-bold">Intel Malaysia Sdn Bhd</p> */}
               <p className=" text-sm md:text-lg mt-0 font-bold text-gray-300">Sales Applications Engineer - Sales Marketing Group - SEA ANZ</p>
               {/* <p>Nov 2021 - current</p> */}
-              <div className="mx-3 p-1 text-pretty text-muted-foreground text-sm">
+              <div className=" text-sm mx-3 p-1 text-pretty text-muted-foreground md:text-base">
                 <ul className= "list-disc justify-normal">
                   <li>Providing sales & technical coverage for Global MNC accounts in Asia region:</li>
                   <p className=" indent-5 font-bold"> -- Siemens </p>
@@ -64,11 +64,11 @@ export default function Home() {
 
             </div>
 
-            <div className="rounded-lg bg-card text-card-foreground">
+            <div className="rounded-lg bg-card text-card-foreground mt-6">
               <div className="flex flex-col space-y-2">
-                <div className="flex items-center justify-between gap-x-2 text-base">
+                <div className="flex items-center justify-between gap-x-2 ">
                   <h3 className="  inline-flex items-center justify-center gap-x-1 font-semibold leading-none mt-3">
-                    <a className=" text-sm md:text-lg hover:underline" href="https://www.linkedin.com/company/intel-corporation/mycompany/verification/">ABB Corporation</a>
+                    <a className=" text-base md:text-xl hover:underline" href="https://www.linkedin.com/company/intel-corporation/mycompany/verification/">ABB Corporation</a>
                     <span className="inline-flex gap-x-1 md:gap-x-2">
                       <div className=" inline-flex items-center rounded-md border px-2 py-0.5 font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent  bg-white/80 text-black hover:bg-white/60 align-middle text-xs md:hidden  ">SEA</div>
                       <div className=" hidden md:inline-flex items-center rounded-md border px-2 py-0.5 font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent  bg-white/80 text-black hover:bg-white/60 align-middle text-xs ">SEA</div>
@@ -81,7 +81,7 @@ export default function Home() {
               {/* <p className="  md:text-xl text-gray-300 mt-2 font-bold">Intel Malaysia Sdn Bhd</p> */}
               <p className=" mt-0 font-bold text-gray-300">Engineer – Sales Specialist – Motion</p>
               {/* <p>Nov 2021 - current</p> */}
-              <div className="mx-3 p-1 text-pretty text-muted-foreground  text-sm">
+              <div className="text-sm mx-3 p-1 text-pretty text-muted-foreground  md:text-base">
                 <ul className= "list-disc justify-normal">
                   <li className=" justify-normal">Managed Key Accounts in project management role for sectors such as Oil & Gas, Critical Power Generation and Public Utilities across the region [Malaysia, Thailand & Brunei].</li>
                   <li>Prepared project specification & technical design of IEC LV Induction motors in accordance to PETRONAS Technical Standard (PTS) & SHELL DEP (Design and Engineering Practice) in projects:</li>
@@ -96,7 +96,7 @@ export default function Home() {
             </div>
             
 
-            <h1 className=" text-sm mt-10 font-bold underline hover:decoration-4 md:text-2xl">EDUCATION</h1>
+            <h1 className=" text-lg mt-10 font-bold underline hover:decoration-4 md:text-2xl">EDUCATION</h1>
             <p className=" text-sm md:text-lg  text-gray-300 font-bold">MONASH UNIVERSITY</p>
             <p className=" mt-0 font-bold text-sm">Bachelor of Electrical and Computer Systems Engineering</p>
             <div className="mx-3 p-1">
@@ -121,7 +121,7 @@ export default function Home() {
               </ul>
             </div>
 
-            <h1 className=" text-sm font-bold underline hover:decoration-4  md:text-lg my-3">SKILLS</h1>
+            <h1 className=" text-lg font-bold underline hover:decoration-4  md:text-2xl my-3">SKILLS</h1>
             <div className="flex flex-wrap gap-1">
               <div className="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-white/80 text-black hover:bg-white/60 text-[15px]"> Python </div>
               <div className="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-white/80 text-black hover:bg-white/60 text-[15px]"> React/Next.js </div>
@@ -132,7 +132,7 @@ export default function Home() {
 
             </div>
             
-            <h1 className=" text-sm font-bold underline hover:decoration-4  md:text-lg my-3">Projects & LinkedIn Articles</h1>
+            <h1 className=" text-lg font-bold underline hover:decoration-4  md:text-2xl my-3">Projects & LinkedIn Articles</h1>
             <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
               
               <div className="rounded-lg bg-card text-card-foreground flex flex-col overflow-hidden border border-muted p-3">
