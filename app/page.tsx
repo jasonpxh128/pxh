@@ -134,6 +134,52 @@ export default function Home() {
             
             <h1 className=" text-lg font-bold underline hover:decoration-4  md:text-2xl my-3">Projects & LinkedIn Articles</h1>
             <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
+
+            <div className="rounded-lg bg-card text-card-foreground flex flex-col overflow-hidden border border-muted p-3">
+                <div className="flex flex-col space-y-1.5">
+                  <div className="space-y-1">
+                    <h3 className="font-semibold tracking-tight text-base">
+                      <a href="https://www.linkedin.com/pulse/llama3-whisper-v3-long-text-summarization-intel-xeon-cpu-jason-pua-v66de/?trackingId=R2Nc1F5URmu41my4vImzOA%3D%3D" target="blank" className="inline-flex items-center gap-1 hover:underline">Llama 3.1 & Whisper v3 long text summarization <span className="size-1 rounded-full bg-green-500"></span></a>
+                      
+                    </h3>
+                    <div className="hidden font-mono text-xs underline print:visible">
+                      https://www.linkedin.com/pulse/llama3-whisper-v3-long-text-summarization-intel-xeon-cpu-jason-pua-v66de/?trackingId=R2Nc1F5URmu41my4vImzOA%3D%3D
+                    </div>
+                    <p className="text-muted-foreground font-mono text-xs"> Llama3.1 has just been released with a phenomenal context length of 128K tokens. This means that transcriptions can now be easily summarized without the need to break them into chunks.</p>
+                  </div>
+
+                </div>
+
+                <div className="text-pretty font-mono text-sm text-muted-foreground mt-auto flex">
+                  <div className="mt-2 flex flex-wrap gap-1">
+                    <div className="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-white/80 text-black hover:bg-white/60 px-1 py-0 text-[15px]">
+                      Intel Demo
+                    </div>
+                    <div className="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-white/80 text-black hover:bg-white/60 px-1 py-0 text-[15px]">
+                      Llama 3.1
+                    </div>
+                    <div className="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-white/80 text-black hover:bg-white/60 px-1 py-0 text-[15px]">
+                      Whisper V3
+                    </div>
+                    <div className="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-white/80 text-black hover:bg-white/60 px-1 py-0 text-[15px]">
+                      Llama.cpp
+                    </div>
+                    <div className="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-white/80 text-black hover:bg-white/60 px-1 py-0 text-[15px]">
+                      OpenAI
+                    </div>
+                    <div className="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-white/80 text-black hover:bg-white/60 px-1 py-0 text-[15px]">
+                      CPU
+                    </div>
+                    <div className="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-white/80 text-black hover:bg-white/60 px-1 py-0 text-[15px]">
+                      OpenVINO
+                    </div>
+                    <div className="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-white/80 text-black hover:bg-white/60 px-1 py-0 text-[15px]">
+                      HuggingFace
+                    </div>
+                  </div>
+                </div>
+
+              </div>
               
               <div className="rounded-lg bg-card text-card-foreground flex flex-col overflow-hidden border border-muted p-3">
                 <div className="flex flex-col space-y-1.5">
@@ -169,49 +215,6 @@ export default function Home() {
 
               </div>
               
-              <div className="rounded-lg bg-card text-card-foreground flex flex-col overflow-hidden border border-muted p-3">
-                <div className="flex flex-col space-y-1.5">
-                  <div className="space-y-1">
-                    <h3 className="font-semibold tracking-tight text-base">
-                      <a href="https://www.linkedin.com/pulse/how-run-llama3-models-llamacpp-intel-gpus-sycl-oneapi-jason-pua-5g6vc/?trackingId=PgxN1cPCfuUKfgPvkIzveQ%3D%3D" target="blank" className="inline-flex items-center gap-1 hover:underline">Llama3 on Llama.cpp <span className="size-1 rounded-full bg-green-500"></span></a>
-                      
-                    </h3>
-                    <div className="hidden font-mono text-xs underline print:visible">
-                      https://www.linkedin.com/pulse/llama3-whisper-v3-long-text-summarization-intel-xeon-cpu-jason-pua-v66de/?trackingId=R2Nc1F5URmu41my4vImzOA%3D%3D
-                    </div>
-                    <p className="text-muted-foreground font-mono text-xs"> Llama 3.1 & Whisper v3 long text summarization on Intel Xeon CPU</p>
-                  </div>
-
-                </div>
-
-                <div className="text-pretty font-mono text-sm text-muted-foreground mt-auto flex">
-                  <div className="mt-2 flex flex-wrap gap-1">
-                    <div className="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-white/80 text-black hover:bg-white/60 px-1 py-0 text-[15px]">
-                      Intel Demo
-                    </div>
-                    <div className="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-white/80 text-black hover:bg-white/60 px-1 py-0 text-[15px]">
-                      C++
-                    </div>
-                    <div className="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-white/80 text-black hover:bg-white/60 px-1 py-0 text-[15px]">
-                      Llama.cpp
-                    </div>
-                    <div className="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-white/80 text-black hover:bg-white/60 px-1 py-0 text-[15px]">
-                      OpenAI
-                    </div>
-                    <div className="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-white/80 text-black hover:bg-white/60 px-1 py-0 text-[15px]">
-                      CPU
-                    </div>
-                    <div className="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-white/80 text-black hover:bg-white/60 px-1 py-0 text-[15px]">
-                      OpenVINO
-                    </div>
-                    <div className="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-white/80 text-black hover:bg-white/60 px-1 py-0 text-[15px]">
-                      HuggingFace
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-
               <div className="rounded-lg bg-card text-card-foreground flex flex-col overflow-hidden border border-muted p-3">
                 <div className="flex flex-col space-y-1.5">
                   <div className="space-y-1">
