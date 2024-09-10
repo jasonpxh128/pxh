@@ -49,10 +49,10 @@ export default function Home() {
               <div className=" text-sm mx-3 p-1 text-pretty text-muted-foreground md:text-base">
                 <ul className= "list-disc justify-normal">
                   <li>Providing account management for Global MNC accounts in Asia region:</li>
-                  <p className=" indent-5 font-bold"> -- Lenovo </p>
-                  <p className=" indent-5 font-bold"> -- Siemens </p>
-                  <p className=" indent-5 font-bold"> -- Honeywell </p>
-                  <p className=" indent-5 font-bold"> -- GE Healthcare & Vernova </p>
+                  <p className=" indent-5 font-bold text-gray-300 "> -- Lenovo </p>
+                  <p className=" indent-5 font-bold text-gray-300 "> -- Siemens </p>
+                  <p className=" indent-5 font-bold text-gray-300"> -- Honeywell </p>
+                  <p className=" indent-5 font-bold text-gray-300"> -- GE Healthcare & Vernova </p>
                   <li>Provide training and technical enablement of Lenovo regional account teams for Client Commercial <span className="underline hover:decoration-4  font-bold text-gray-300 ">(AI PCs)</span> and Data Center Servers (AI on Xeon) for Enterprise, Public Sector and MNC segments.</li>
                   <li>Close collaboration with OEMs such as <span className=" underline hover:decoration-4  font-bold text-gray-300 ">Lenovo, Dell and HPE</span> to secure commercial and pricing support to win deals for Enterprise tenders and Public Sector projects.</li>
                   <li className=" justify-normal">Charter includes providing account management and technical support for product design on Intel Architecture such as <span className=" underline hover:decoration-4  font-bold text-gray-300 ">(CPU, GPU & Ethernet)</span> </li>
