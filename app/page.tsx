@@ -48,16 +48,17 @@ export default function Home() {
               {/* <p>Nov 2021 - current</p> */}
               <div className=" text-sm mx-3 p-1 text-pretty text-muted-foreground md:text-base">
                 <ul className= "list-disc justify-normal">
-                  <li>Providing sales & technical coverage for Global MNC accounts in Asia region:</li>
+                  <li>Providing account management for Global MNC accounts in Asia region:</li>
+                  <p className=" indent-5 font-bold"> -- Lenovo </p>
                   <p className=" indent-5 font-bold"> -- Siemens </p>
                   <p className=" indent-5 font-bold"> -- Honeywell </p>
                   <p className=" indent-5 font-bold"> -- GE Healthcare & Vernova </p>
+                  <li>Provide training and technical enablement of Lenovo regional account teams for Client Commercial <span className="underline hover:decoration-4  font-bold text-gray-300 ">(AI PCs)</span> and Data Center Servers (AI on Xeon) for Enterprise, Public Sector and MNC segments.</li>
+                  <li>Close collaboration with OEMs such as <span className=" underline hover:decoration-4  font-bold text-gray-300 ">Lenovo, Dell and HPE</span> to secure commercial and pricing support to win deals for Enterprise tenders and Public Sector projects.</li>
                   <li className=" justify-normal">Charter includes providing account management and technical support for product design on Intel Architecture such as <span className=" underline hover:decoration-4  font-bold text-gray-300 ">(CPU, GPU & Ethernet)</span> </li>
-                  <li>Enabling customers to accelerate <span className=" underline hover:decoration-4  font-bold text-gray-300 ">AI/DL</span> & Machine Learning workloads using Intel CPU features and accelerators such as <span className=" underline hover:decoration-4  font-bold text-gray-300 ">AMX and AVX512. </span></li>
-                  <li>Driving adoption for Intel open standards software such as OpenVINO and OneAPI to accelerate <span className=" underline hover:decoration-4  font-bold text-gray-300 ">Edge AI Inferencing</span>.</li>
+                  <li>Enabling customers to accelerate <span className=" underline hover:decoration-4  font-bold text-gray-300 ">AI Workloads</span> using Intel CPU features and accelerators such as <span className=" underline hover:decoration-4  font-bold text-gray-300 ">AMX and AVX512. </span></li>
+                  <li>Driving adoption for Intel open standards software such as OpenVINO and OneAPI to accelerate <span className=" underline hover:decoration-4  font-bold text-gray-300 ">Edge AI such as LLMs and GenAI </span>.</li>
                   <li>Providing technical support until board bring up and power on stages for <span className=" underline hover:decoration-4 font-bold text-gray-300 ">embedded / industrial IOT applications</span>  on form factors such as single board computers (SBC), system on modules (SOM), COM Express.</li>
-                  <li>Close collaboration with OEMs to such as <span className=" underline hover:decoration-4  font-bold text-gray-300 ">Lenovo, Dell and HPE</span> for bespoke solutions on customers specified power & thermal envelope.</li>
-                  <li>Training and technical enablement of Lenovo Technical Sales Team & regional account teams for Client Compute <span className="underline hover:decoration-4  font-bold text-gray-300 ">(AIPC)</span> and Data Center Servers (AI on Xeon) for Enterprise, Public Sector and MNC segments.</li>
 
                 </ul>
               </div>
@@ -123,6 +124,7 @@ export default function Home() {
 
             <h1 className=" text-lg font-bold underline hover:decoration-4  md:text-2xl my-3">SKILLS</h1>
             <div className="flex flex-wrap gap-1">
+              <div className="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-white/80 text-black hover:bg-white/60 text-[15px]"> LLM & GenAI </div>
               <div className="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-white/80 text-black hover:bg-white/60 text-[15px]"> Python </div>
               <div className="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-white/80 text-black hover:bg-white/60 text-[15px]"> React/Next.js </div>
               <div className="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-white/80 text-black hover:bg-white/60 text-[15px]"> C++ </div>
@@ -152,6 +154,9 @@ export default function Home() {
 
                 <div className="text-pretty font-mono text-sm text-muted-foreground mt-auto flex">
                   <div className="mt-2 flex flex-wrap gap-1">
+                    <div className="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-white/80 text-black hover:bg-white/60 px-1 py-0 text-[15px]">
+                      LLM & GenAI
+                    </div>
                     <div className="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-white/80 text-black hover:bg-white/60 px-1 py-0 text-[15px]">
                       Intel Demo
                     </div>
@@ -198,6 +203,9 @@ export default function Home() {
 
                 <div className="text-pretty font-mono text-sm text-muted-foreground mt-auto flex">
                   <div className="mt-2 flex flex-wrap gap-1">
+                    <div className="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-white/80 text-black hover:bg-white/60 px-1 py-0 text-[15px]">
+                      LLM & GenAI
+                    </div>
                     <div className="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-white/80 text-black hover:bg-white/60 px-1 py-0 text-[15px]">
                       Intel Demo
                     </div>
